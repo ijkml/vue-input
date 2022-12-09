@@ -1,46 +1,115 @@
-# vue-input
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://i.imgur.com/6wj0hh6.jpg" alt="Project logo"></a>
+</p>
 
-This template should help get you started developing with Vue 3 in Vite.
+<h2 align="center">Vue Input</h2>
 
-## Recommended IDE Setup
+<div align="center">
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+[![Status](https://img.shields.io/badge/status-active-success.svg)]()
+[![GitHub Issues](https://img.shields.io/github/issues/ijkml/vue-input)](https://github.com/ijkml/vue-input/issues)
+[![GitHub Pull Requests](https://img.shields.io/github/issues-pr/ijkml/vue-input)](https://github.com/ijkml/vue-input/pulls)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](/LICENSE)
 
-## Type Support for `.vue` Imports in TS
+</div>
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+---
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
+<p align="center">
+One <code>&lt;input&gt;</code> to rule them all,<br>
+One <code>&lt;input&gt;</code> to find them,<br>
+One <code>&lt;input&gt;</code> to bring them all<br>
+and with the API bind them.
+</p>
 
-1. Disable the built-in TypeScript Extension
-    1) Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-    2) Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+## 📝 Table of Contents
 
-## Customize configuration
+- [About](#about)
+- [Getting Started](#getting_started)
+- [Deployment](#deployment)
+- [Usage](#usage)
+- [Built Using](#built_using)
+- [TODO](../TODO.md)
+- [Contributing](../CONTRIBUTING.md)
+- [Authors](#authors)
+- [Acknowledgments](#acknowledgement)
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+## 🧐 About <a name="about"></a>
 
-## Project Setup
+Write about 1-2 paragraphs describing the purpose of your project.
 
-```sh
-npm install
+## 🏁 Getting Started <a name="getting_started"></a>
+
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See [deployment](#deployment) for notes on how to deploy the project on a live system.
+
+### Prerequisites
+
+What things you need to install the software and how to install them.
+
+```
+Give examples
 ```
 
-### Compile and Hot-Reload for Development
+### Installing
 
-```sh
-npm run dev
+A step by step series of examples that tell you how to get a development env running.
+
+Say what the step will be
+
+```
+Give the example
 ```
 
-### Type-Check, Compile and Minify for Production
+And repeat
 
-```sh
-npm run build
+```
+until finished
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+End with an example of getting some data out of the system or using it for a little demo.
 
-```sh
-npm run lint
+## 🔧 Running the tests <a name="tests"></a>
+
+Explain how to run the automated tests for this system.
+
+### Break down into end to end tests
+
+Explain what these tests test and why
+
 ```
+Give an example
+```
+
+### And coding style tests
+
+Explain what these tests test and why
+
+```
+Give an example
+```
+
+## 🎈 Usage <a name="usage"></a>
+
+Add notes about how to use the system.
+
+## 🚀 Deployment <a name="deployment"></a>
+
+Add additional notes about how to deploy this on a live system.
+
+## ⛏️ Built Using <a name="built_using"></a>
+
+- [VueJs](https://vuejs.org/) - Web Framework
+- [UnoCSS](https://uno.antfu.me/) - Atomic CSS Engine
+- [Vite](https://vitejs.dev/) - Instant HMR and bundler
+
+## ✍️ Authors <a name="authors"></a>
+
+- [@ijkml](https://github.com/ijkml) - Idea & Initial work
+
+See also the list of [contributors](https://github.com/ijkml/vue-input/graphs/contributors) who participated in this project.
+
+## 🎉 Acknowledgements <a name="acknowledgement"></a>
+
+- [Google-inspired inputs by mrWhiner](https://codepen.io/mrWhiner/pen/mdexvXE)
+- [Inspiration]
