@@ -1,31 +1,28 @@
 <script setup lang="ts">
-defineProps<{
-  msg: string
-}>();
+import TheInput from '@/components/TheInput.vue';
 </script>
 
 <template>
   <div class="greetings">
     <h1 class="green">
-      {{ msg }}
+      Vue-Input
     </h1>
-    <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>.
-    </h3>
+    <p class="mb-3">
+      One <kbd>&lt;input&gt;</kbd> to rule them all!
+    </p>
+    <div class="sandbox">
+      <form>
+        <TheInput class="the-input" />
+      </form>
+    </div>
   </div>
 </template>
 
-<style scoped>
+<style scoped lang="scss">
 h1 {
   font-weight: 500;
-  font-size: 2.6rem;
+  font-size: 2rem;
   top: -10px;
-}
-
-h3 {
-  font-size: 1.2rem;
 }
 
 .greetings h1,
@@ -38,5 +35,17 @@ h3 {
   .greetings h3 {
     text-align: left;
   }
+}
+
+.sandbox {
+  @apply my-5 bg-white dark:bg-black flex w-full p-5;
+}
+
+form {
+  @apply w-full;
+}
+
+.the-input {
+  // @apply w-full;
 }
 </style>
